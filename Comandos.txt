@@ -1,0 +1,12 @@
+git init --initial-branch=main
+git config user.name "Carlos Daniel"
+git config user.email "carlosdaniel.pessoal@gmail.com"
+[Arquivo "Dados.txt" criado pelo Explorador de Arquivos usando o Bloco de Notas do Windows]
+git add Dados.txt
+git commit -m "Dados pessoais adicionados"
+git remote add origin https://github.com/CarlosDanielGMS/curso-git-embarcatech.git
+git push -u origin main
+[Arquivo "Comandos.txt" criado pelo Explorador de Arquivos usando o Bloco de Notas do Windows]
+git add Comandos.txt
+git commit -m "Comandos adicionados"
+git push -u origin main
